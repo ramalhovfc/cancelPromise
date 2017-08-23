@@ -21,7 +21,7 @@ setTimeout(() => {
 }, 500);
 
 await skipable.promise;
-// resolved before 1500ms
+// resolved at 500ms
 ```
 
 # Tests
