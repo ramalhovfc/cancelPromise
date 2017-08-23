@@ -4,15 +4,22 @@
   "description": "Skip await instructions when dealing with promises",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha --require mocha-babel"
   },
   "keywords": [
     "skip",
     "cancel",
     "promise",
     "promises",
-    "await"
+    "await",
+    "async"
   ],
   "author": "Joao Ramalho",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2017": "^6.24.1",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
 }
