@@ -1,7 +1,14 @@
 # CancelPromise
-Cancel and skip awaits when dealing with promises
+Cancel and skip awaits when dealing with promises.
+Published as an NPM package: cancelPromise.
 
-# Example
+# Install
+Install as an NPM package
+```javascript
+npm i cancel-promise --save
+```
+
+# Usage
 ```javascript
 const longRunPromise = new Promise((resolve, reject) => {
 	setTimeout(() => {

@@ -1,5 +1,5 @@
 {
-  "name": "cancelpromise",
+  "name": "cancel-promise",
   "version": "0.0.2",
   "description": "Skip await instructions when dealing with promises",
   "main": "index.js",
