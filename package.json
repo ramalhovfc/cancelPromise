@@ -12,7 +12,8 @@
     "promise",
     "promises",
     "await",
-    "async"
+    "async",
+    "resolve"
   ],
   "author": "Joao Ramalho",
   "license": "MIT",
