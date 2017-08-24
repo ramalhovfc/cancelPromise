@@ -3,15 +3,15 @@
 class SkipablePromise {
 	static create(promise) {
 		let skip;
-		let reject;
+		let skipReject;
 		const shortCircuitPromise = new Promise((resolve, reject) => {
 			skip = resolve;
-			reject = reject;
+			skipReject = reject;
 		});
 		return {
 			promise: Promise.race([promise, shortCircuitPromise]),
 			skip: skip,
-			reject: reject
+			skipReject: skipReject
 		};
 	}
 }

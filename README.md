@@ -26,7 +26,7 @@ setTimeout(() => {
     skipable.skip();
     
     // if you want to early reject the promise
-    // skipable.reject();
+    // skipable.skipReject();
 }, 500);
 
 await skipable.promise;
