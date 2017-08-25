@@ -25,6 +25,9 @@ const skipable = SkipablePromise.create(longRunPromise);
 setTimeout(() => {
     skipable.skip();
     
+    // you can also pass a resolve value
+    // skipable.skip('Hello world!');
+    
     // if you want to early reject the promise
     // skipable.skipReject();
 }, 500);
