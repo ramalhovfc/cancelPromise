@@ -1,6 +1,6 @@
 # CancelPromise
 Cancel and skip awaits when dealing with promises.
-Published as an NPM package: cancelPromise.
+Published as an NPM package: cancel-promise.
 
 # Install
 Install as an NPM package
