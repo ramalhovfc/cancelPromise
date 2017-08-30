@@ -10,7 +10,7 @@ npm i cancel-promise --save
 
 # Usage
 ```javascript
-const SkipablePromise = require('../index');
+const SkipablePromise = require("cancel-promise");
 
 const longRunPromise = new Promise((resolve, reject) => {
 	setTimeout(() => {
